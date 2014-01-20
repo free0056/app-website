@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+.ball {
+	width:200px;
+	height: 200px;
+	position: absoulte;
+	top: 200px;
+	left: 200px;
+	background-color: red;
+	border-radius: 100px;
+}
+
+

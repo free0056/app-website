@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+.btn {
+	padding: 0.7em 0.9em;
+	display: inline-block;
+	background-color: #33c;
+	background-image: linear-gradient(to bottom, #33c, #336);
+	border-radius: 8px;
+	box-shadow:0 2px 3px rgba(0,0,0,0.5);
+	font-weight:bold;
+	color: #fff;
+	text-decoration:none;	
+}
+
+.btn:hover {
+	background-color:#33f;
+	background-image: linear-gradient(to bottom, #33f, #339);
+}
+
+.btn-large {
+	font-size:1.25em;
+}
+
+.btn-small {
+	font-size:0.5em;
+}
+
+.btn-buy {
+	background-color: #3c3;
+	background-image: linear-gradient(to bottom, #3c3, #363);
+}
+
+.btn-buy:hover {
+	background-color: #3f3;
+	background-image: linear-gradient(to bottom, #3f3, #393);
+}
+	
+	
+	

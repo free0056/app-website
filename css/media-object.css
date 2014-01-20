@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+.media {
+	overflow:hidden;
+}
+
+.media-img {
+	float:left;
+	margin-right:10px;
+	
+}
+
+.media-img-reversed {
+	float:right;
+	margin-right:0;
+	margin-left:10px;
+}
+
+.media-img-stacked {
+	display:block;
+	float:none;
+	margin: 0 0 10px;
+}
+	
+
+
+.media-body {
+	overflow:hidden;
+}
+
+.media-title {
+	margin: 0;
+	font-size:1rem;
+	font-weight:bold;
+}
+
+	
+	

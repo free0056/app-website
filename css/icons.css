@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+.icon-wrapper {
+	color:#339;
+	text-decoration:none;	
+
+}
+.icon-text{
+	border-bottom: 1px solid rgba(51, 51, 153, 0.5);	
+}
+
+.icon {
+	display:inline-block;
+	background:transparent none no-repeat left top;
+	/* color image repeat position */
+	background-size: contain;
+	vertical-align:middle;
+}
+
+.i-32 {
+	height: 32px;
+	width: 32px;
+}
+
+.i-16 {
+	height: 16px;
+	width: 16px;
+}
+
+
+.i-twitter {
+	background-image: url("../img/i-twitter.svg");
+}
+
+.i-googleplus {
+	background-image: url("../img/i-googleplus.svg");
+}
+
+.i-pinterest {
+	background-image: url("../img/i-pinterest.svg");
+}
+
+.i-facebook {
+	background-image: url("../img/i-facebook.svg");
+}
