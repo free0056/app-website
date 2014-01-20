@@ -1,13 +1,38 @@
 @charset "UTF-8";
 /* CSS Document */
-.ball {
-	width:200px;
-	height: 200px;
-	position: absoulte;
-	top: 200px;
-	left: 200px;
-	background-color: red;
-	border-radius: 100px;
+.carousel {
+	position: relative;
+	position: center;
+	padding-bottom: 52.6%;
+	padding-top: 40.6%;
 }
+
+.carousel img {
+	position: absolute;
+	left: 0;
+	top: 6%;
+	width: 100%;
+}
+
+.carousel-buttons {
+	position: absolute;
+	z-index: 1000;
+}
+
+.carousel-buttons2 {
+	position: relative;
+	z-index: 1000;
+	float: right;
+
+}
+
+.carousel [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel [data-state="incoming"] {
+	z-index: 100;
+}
+
 
 

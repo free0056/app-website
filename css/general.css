@@ -13,7 +13,7 @@ html {
 	background-position: center center;
 	background-repeat: no-repeat;
 	font: normal 100%/1.5 sans-serif;
-	font-family: 'Josefin';
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -136,7 +136,7 @@ h2 {
 	
 p,h1,h2 {
 	text-align:left;
-	font-family: 'Josefin+Sans', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #9E9E9E;
 }
 
