@@ -5,6 +5,7 @@
 		
 		<meta charset="UTF-8">
 		<title>App Site</title>
+		<link href="css/dialog-polyfill.css" rel="stylesheet">
 		<link href="css/general.css" rel="stylesheet">
 		<link href="css/buttons.css" rel="stylesheet">
 		<link href="css/common.css" rel="stylesheet">
@@ -15,7 +16,7 @@
 
 	<header>
 		<div>
-		<img class="logo"src="images/logo.png">
+		<img class="logo"src="images/logo.svg">
 		</div>
 	
 	</header>
@@ -24,11 +25,17 @@
 		<article>
 
 			<figure>
-			<img src="http://placehold.it/350x350 alt="Play Video" class="img-size thumbnail">
+				<a class="btn-open" href="#">Play</a>
 			</figure>
 
+			<dialog>
+				<div class="video"></div>
+				<button class="btn-close">x</button>
+			</dialog>
+
+
 			<h1>Road Wallet</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt lacus sed blandit tempor. Praesent quis fringilla justo.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt lacus sed blandit tempor. Praesent quis fringilla justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt lacus sed blandit tempor. Praesent quis fringilla justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt lacus sed blandit tempor. Praesent quis fringilla justo.</p>
 			<a href="#" class="btn btn-buy btn-medium"; >Buy Now</a>
 		</article>
 
@@ -50,14 +57,13 @@
 			</div>
 		</div>
 
-	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-	<script src="js/general.js"></script>	
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="js/dialog-polyfill.js"></script>
+		<script src="js/general.js"></script>	
 	</body>
 		
 	
 	<footer>
-	
-
 		
 		<p>© App Design 2014</p>
 		

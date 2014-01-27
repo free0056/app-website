@@ -34,5 +34,46 @@
 	z-index: 100;
 }
 
+dialog {
+	border-radius: 6px;
+	border: 1px solid #333;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	padding: 1em;
+}
 
+dialog::backdrop {
 
+	background-color: green;
+}
+
+.btn-close {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	border: 2px solid #fff;
+	background-color: #000;
+	color: #fff;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+	font-weight: bold;
+ 	line-height: 0.6;
+	font-size: 1rem;
+	cursor: pointer;
+	position: absolute;
+	top: -16px;
+	right: -16px;
+}
+
+.btn-open {
+	padding: 30% 30%;
+	display: inline-block;
+	background-color: #F5F1DE;
+	box-shadow:0 1px 2px rgba(0,0,0,0.5);
+	color: red;
+	text-decoration:none;	
+	border-style: none;
+	background-image: url(../img/appscreen-4.png);
+	border-radius: 16px;
+	border: 1px solid #9E9E9E;
+	background-color: #000;
+}
